@@ -17,10 +17,6 @@ public class LandingPageRepo extends GlobalClass {
 	}
 	@FindBy(xpath="//android.widget.TextView[@index='0']")
 	private WebElement hamburgerMenu;
-	@FindBy(xpath="//android.widget.TextView[@text='Login']")
-	private WebElement login;
-	@FindBy(xpath="//android.widget.TextView[@text='Sign Up']")
-	private WebElement signUp;
 	
 	public WebElement getHamburgerMenu()
 	{
