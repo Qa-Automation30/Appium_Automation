@@ -1,0 +1,15 @@
+package com.bewkoof.commanLibraries;
+
+public class AppiumServer {
+	
+	public void startServer()
+	{
+		
+	}
+	public void stopServer()
+	{
+		
+	}
+
+	
+}

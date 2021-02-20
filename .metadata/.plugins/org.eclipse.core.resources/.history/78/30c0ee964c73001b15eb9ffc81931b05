@@ -1,0 +1,20 @@
+package com.bewakoof.landingPage;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+import com.bewakoof.utils.CommanFunctionForMobile;
+
+public class LandingPageAction extends GlobalClass{
+	LandingPageRepo landingPageRepo;
+	CommanFunctionForMobile commanFunctionForMobile;
+	public LandingPageAction()
+	{
+		landingPageRepo= new LandingPageRepo();
+		commanFunctionForMobile = new CommanFunctionForMobile();
+	}
+	
+	public void clickOnHamburgerMenu()
+	{
+		landingPageRepo.getHamburgerMenu().click();
+	}
+
+}

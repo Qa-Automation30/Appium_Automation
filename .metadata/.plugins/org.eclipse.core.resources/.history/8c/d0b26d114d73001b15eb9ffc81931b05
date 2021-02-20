@@ -1,0 +1,7 @@
+package com.bewakoof.TestLayer;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+public class LandingPageTest extends GlobalClass {
+
+}

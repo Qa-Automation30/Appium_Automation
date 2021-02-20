@@ -1,0 +1,12 @@
+package com.bewakoof.utils;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+public class CommanFunctionForMobile extends GlobalClass {
+	
+	public void clickEvent()
+	{
+		
+	}
+
+}

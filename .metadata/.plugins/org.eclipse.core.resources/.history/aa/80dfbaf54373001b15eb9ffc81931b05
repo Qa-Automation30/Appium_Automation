@@ -1,0 +1,9 @@
+package com.bewkoof.BaseClass;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class GlobalClass {
+	public static AndroidDriver<AndroidElement> androidDrivae;
+
+}

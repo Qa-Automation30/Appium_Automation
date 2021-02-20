@@ -1,0 +1,9 @@
+package com.bewakoof.landingPage;
+
+public class LandingPageRepo {
+	public LandingPageRepo()
+	{
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.bewakoof.landingPage;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+public class LandingPageAction extends GlobalClass{
+	
+	public void clickOnHamburgerMenu()
+	{
+		
+	}
+
+}

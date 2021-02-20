@@ -1,0 +1,17 @@
+package com.bewakoof.TestLayer;
+
+import org.testng.annotations.Test;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+import com.bewakoof.landingPage.LandingPageAction;
+
+public class LandingPageTest extends GlobalClass {
+	LandingPageAction landingPageAction;
+	
+	@Test
+	public void verifyLandingPage()
+	{
+		
+	}
+
+}
