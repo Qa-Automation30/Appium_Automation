@@ -22,8 +22,8 @@ public class AppiumServer {
 	}
 	public static void stopServer()
 	{
-		service.stop();
 		System.out.println("Appium Server stopped");
+		service.stop();	
 	}
 	public static boolean checkIfServerIsRunning(int port)
 	{

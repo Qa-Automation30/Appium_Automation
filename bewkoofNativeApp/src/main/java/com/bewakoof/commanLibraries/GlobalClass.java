@@ -33,7 +33,7 @@ public class GlobalClass extends AppiumServer {
 		try {
 			capability = setCapabitilty();
 			androidDriver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),capability);
-			androidDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			androidDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			return androidDriver;
 		} catch (MalformedURLException e) {
 			System.out.println(e.toString());

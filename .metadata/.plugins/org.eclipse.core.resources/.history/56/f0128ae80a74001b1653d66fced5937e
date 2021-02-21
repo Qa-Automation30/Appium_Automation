@@ -1,0 +1,29 @@
+package com.bewakoof.utils;
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class CommanFunctionForMobile extends GlobalClass {
+	WebDriverWait wait = new WebDriverWait(AndroidDriver<AndroidElement> androidDriver, TimeUnit.SECONDS);
+	public CommanFunctionForMobile()
+	{
+		super();
+	}
+	public void clickEvent(WebElement element)
+	{
+		element.click();
+	}
+	public void elementIsvisibel(WebElement element,int time, AndroidDriver<AndroidElement> androidDriver)
+	{
+		
+	}
+
+}

@@ -8,15 +8,18 @@ import io.appium.java_client.android.AndroidElement;
 
 public class LandingPageAction extends GlobalClass{
 	LandingPageRepo landingPageRepo;
-	CommanFunctionForMobile comm ;
 	public LandingPageAction(AndroidDriver<AndroidElement> androidDriver)
 	{
 		landingPageRepo= new LandingPageRepo(androidDriver);
-		comm = new CommanFunctionForMobile();
 	}
 	public void clickOnHamburgerMenu()
 	{
-		comm.clickEvent(landingPageRepo.getHamburgerMenu());
+		CommanFunctionForMobile.clickEvent(landingPageRepo.getHamburgerMenu());
+	}
+	public void clickOnLoginButton() throws InterruptedException
+	{
+		CommanFunctionForMobile.elementIsvisibel(landingPageRepo.getloginButton(), androidDriver);
+		//landingPageRepo.getloginButton().click();
 	}
 
 }

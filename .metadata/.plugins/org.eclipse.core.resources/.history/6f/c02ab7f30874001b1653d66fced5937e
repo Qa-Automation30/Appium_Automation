@@ -1,0 +1,23 @@
+package com.bewakoof.utils;
+
+import java.sql.Time;
+
+import org.openqa.selenium.WebElement;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class CommanFunctionForMobile extends GlobalClass {
+	
+	public void clickEvent(WebElement element)
+	{
+		element.click();
+	}
+	public void elementIsvisibel(WebElement element,int time, AndroidDriver<AndroidElement> androidDriver)
+	{
+		
+	}
+
+}

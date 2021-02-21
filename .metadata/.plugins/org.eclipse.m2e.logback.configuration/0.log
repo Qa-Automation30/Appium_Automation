@@ -757,3 +757,19 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-02-20 13:17:47,727 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\main\resources
 2021-02-20 13:17:47,727 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-20 13:17:47,727 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\test\resources
+2021-02-20 14:52:03,911 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:52:03,911 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\main\resources
+2021-02-20 14:52:03,912 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:52:03,912 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\test\resources
+2021-02-20 14:52:52,425 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:52:52,425 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\main\resources
+2021-02-20 14:52:52,425 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:52:52,425 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\test\resources
+2021-02-20 14:52:57,655 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:52:57,655 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\main\resources
+2021-02-20 14:52:57,656 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:52:57,656 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\test\resources
+2021-02-20 14:53:06,011 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:53:06,011 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\main\resources
+2021-02-20 14:53:06,011 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-20 14:53:06,011 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Appium Project\bewkoofNativeApp\src\test\resources

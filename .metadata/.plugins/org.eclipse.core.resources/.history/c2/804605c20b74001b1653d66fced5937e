@@ -1,0 +1,40 @@
+package com.bewakoof.utils;
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.functions.ExpectedCondition;
+
+public class CommanFunctionForMobile extends GlobalClass {
+	public static WebDriverWait wait;
+	public CommanFunctionForMobile()
+	{
+		super();
+	}
+	public static void clickEvent(WebElement element)
+	{
+		element.click();
+	}
+	public static boolean elementIsvisibel(WebElement element,int time, AndroidDriver<AndroidElement> androidDriver)
+	{
+		try {
+			wait = new WebDriverWait(androidDriver,time);
+			wait.until(ExpectedConditions.visibilityOf(element));
+			wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+			return true;
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+		return false;
+	}
+
+}

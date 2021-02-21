@@ -1,0 +1,68 @@
+package com.bewakoof.loginPageRepo;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+
+public class LoginPageRepo extends GlobalClass {
+	public LoginPageRepo(AndroidDriver<AndroidElement> androidDriver)
+	{
+		PageFactory.initElements(new AppiumFieldDecorator(androidDriver),this);
+	}
+	
+	@FindBy(xpath="//android.widget.TextView[@text='Login']")
+	private WebElement loginHeader;
+	@FindBy(xpath="//android.widget.TextView[@text='Discover Fashion!']")
+	private WebElement discoverFashion;
+	@FindBy(xpath="//android.widget.TextView[@text='You’re just one step away from signing up']")
+	private WebElement textMessage;
+	@FindBy(xpath="//android.widget.EditText[@text='Email / Mobile no']")
+	private WebElement enterEmailOrMobile;
+	@FindBy(xpath="//android.widget.TextView[@text='CONTINUE']")
+	private WebElement continueButton;
+	@FindBy(xpath="//android.widget.TextView[@text='New to Bewakoof? ']")
+	private WebElement newToBewakoofText ;
+	@FindBy(xpath="//android.widget.TextView[@text='SIGN UP']")
+	private WebElement SignUpButton;
+	@FindBy(xpath="//android.widget.TextView[@text='Continue with Google']")
+	private WebElement ContinueWithGoogle;
+	@FindBy(xpath="//android.widget.TextView[@text='Continue with Facebook']")
+	private WebElement ContinueWithFacebook;
+	
+	public WebElement getLoginHeader()
+	{
+		return loginHeader;
+	}
+	public WebElement getdiscoverFashion()
+	{
+		return loginHeader;
+	}
+	public WebElement getLoginHeader()
+	{
+		return loginHeader;
+	}
+	public WebElement getLoginHeader()
+	{
+		return loginHeader;
+	}
+	public WebElement getLoginHeader()
+	{
+		return loginHeader;
+	}
+	public WebElement getLoginHeader()
+	{
+		return loginHeader;
+	}
+	public WebElement getLoginHeader()
+	{
+		return loginHeader;
+	}
+	
+
+}

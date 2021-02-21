@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14034" started-at="2021-02-20T07:48:26Z" finished-at="2021-02-20T07:48:40Z">
+  <suite name="Suite" duration-ms="40586" started-at="2021-02-21T06:26:27Z" finished-at="2021-02-21T06:27:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14034" started-at="2021-02-20T07:48:26Z" finished-at="2021-02-20T07:48:40Z">
+    <test name="Test" duration-ms="40586" started-at="2021-02-21T06:26:27Z" finished-at="2021-02-21T06:27:07Z">
       <class name="com.bewakoof.TestLayer.LandingPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bewakoof.TestLayer.LandingPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="2577" started-at="2021-02-20T07:48:24Z" finished-at="2021-02-20T07:48:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bewakoof.TestLayer.LandingPageTest@4f970963]" name="setUp" is-config="true" duration-ms="895" started-at="2021-02-21T06:26:26Z" finished-at="2021-02-21T06:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLandingPage()[pri:0, instance:com.bewakoof.TestLayer.LandingPageTest@1fe20588]" name="verifyLandingPage" duration-ms="13558" started-at="2021-02-20T07:48:26Z" finished-at="2021-02-20T07:48:40Z">
+        <test-method status="PASS" signature="verifyLandingPage()[pri:0, instance:com.bewakoof.TestLayer.LandingPageTest@4f970963]" name="verifyLandingPage" duration-ms="40096" started-at="2021-02-21T06:26:27Z" finished-at="2021-02-21T06:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLandingPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bewakoof.TestLayer.LandingPageTest@1fe20588]" name="tearDown" is-config="true" duration-ms="476" started-at="2021-02-20T07:48:40Z" finished-at="2021-02-20T07:48:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bewakoof.TestLayer.LandingPageTest@4f970963]" name="tearDown" is-config="true" duration-ms="471" started-at="2021-02-21T06:27:07Z" finished-at="2021-02-21T06:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bewakoof.TestLayer.LandingPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="io.appium.java_client.remote.MobileCapabilityType"/>
+<fullyQualifiedTypeName name="io.appium.java_client.remote.AndroidMobileCapabilityType"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeSuite"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
+<fullyQualifiedTypeName name="io.appium.java_client.service.local.AppiumDriverLocalService"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="com.bewkoof.commanLibraries.AppiumServer"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="io.appium.java_client.pagefactory.AppiumFieldDecorator"/>
+<fullyQualifiedTypeName name="net.bytebuddy.agent.builder.AgentBuilder.CircularityLock.Global"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="com.bewakoof.landingPage.LandingPageRepo"/>
+<fullyQualifiedTypeName name="com.bewakoof.commanLibraries.GlobalClass"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="com.bewakoof.landingPage.LandingPageAction"/>
+<fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
+<fullyQualifiedTypeName name="io.appium.java_client.android.AndroidElement"/>
+<fullyQualifiedTypeName name="com.bewakoof.utils.CommanFunctionForMobile"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+</qualifiedTypeNameHistroy>
