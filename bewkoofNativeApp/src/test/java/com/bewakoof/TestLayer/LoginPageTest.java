@@ -14,7 +14,7 @@ import io.appium.java_client.android.AndroidElement;
 public class LoginPageTest extends GlobalClass {
 	LeftMenuNavigationAction navigationAction;
 	LoginPageAction loginPageAction;
-	
+	//Test Automation.
 	@Test
 	public void verifyLoginPage()
 	{
