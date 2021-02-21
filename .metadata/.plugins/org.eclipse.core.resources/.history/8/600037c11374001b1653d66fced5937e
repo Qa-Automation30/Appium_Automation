@@ -1,0 +1,15 @@
+package com.bewakoof.TestLayer;
+
+import org.testng.annotations.Test;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+public class LoginPageTest extends GlobalClass {
+	
+	@Test
+	public void verifyLoginPage()
+	{
+		
+	}
+
+}

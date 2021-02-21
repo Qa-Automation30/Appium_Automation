@@ -20,7 +20,7 @@ public class CommanFunctionForMobile extends GlobalClass {
 	{
 		element.click();
 	}
-	public static boolean elementIsvisibel(WebElement element,AndroidDriver<AndroidElement> androidDriver)
+	public static boolean elementIsvisibelToClick(WebElement element,AndroidDriver<AndroidElement> androidDriver)
 	{
 		try {
 			wait = new WebDriverWait(androidDriver, 20);

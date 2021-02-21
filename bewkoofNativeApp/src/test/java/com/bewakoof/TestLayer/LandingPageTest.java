@@ -4,22 +4,21 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import com.bewakoof.commanLibraries.GlobalClass;
-import com.bewakoof.landingPage.LandingPageAction;
+import com.bewakoof.leftMenuNavigation.LeftMenuNavigationAction;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 public class LandingPageTest extends GlobalClass {
-	LandingPageAction landingPageAction;
+	LeftMenuNavigationAction landingPageAction;
 	
 	@Test
 	public void verifyLandingPage()
 	{
 		try {
 			AndroidDriver<AndroidElement> androidDriver = getAndroidDriver();
-			landingPageAction = new LandingPageAction(androidDriver);
+			landingPageAction = new LeftMenuNavigationAction(androidDriver);
 			landingPageAction.clickOnHamburgerMenu();
-			landingPageAction.clickOnLoginButton();	
 		} catch (Exception e) {
 			System.out.println(e.toString());
 		}

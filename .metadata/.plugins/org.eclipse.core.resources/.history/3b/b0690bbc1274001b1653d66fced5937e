@@ -1,0 +1,11 @@
+package com.bewakoof.loginPageRepo;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+
+public class LoginPageAction extends GlobalClass {
+	public LoginPageAction()
+	{
+		
+	}
+
+}
