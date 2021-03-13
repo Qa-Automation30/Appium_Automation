@@ -1,4 +1,4 @@
-package com.bewakoof.loginPageRepo;
+package com.bewakoof.loginPage;
 
 import com.bewakoof.commanLibraries.GlobalClass;
 

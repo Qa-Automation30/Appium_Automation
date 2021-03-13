@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.bewakoof.commanLibraries.GlobalClass;
 import com.bewakoof.leftMenuNavigation.LeftMenuNavigationAction;
-import com.bewakoof.loginPageRepo.LoginPageAction;
+import com.bewakoof.loginPage.LoginPageAction;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;

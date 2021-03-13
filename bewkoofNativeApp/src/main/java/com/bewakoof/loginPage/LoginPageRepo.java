@@ -1,4 +1,4 @@
-package com.bewakoof.loginPageRepo;
+package com.bewakoof.loginPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
