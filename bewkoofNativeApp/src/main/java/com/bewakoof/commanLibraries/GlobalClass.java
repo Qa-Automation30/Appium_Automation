@@ -1,7 +1,10 @@
 package com.bewakoof.commanLibraries;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -15,7 +18,19 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class GlobalClass extends AppiumServer {
 	public static AndroidDriver<AndroidElement> androidDriver;
+	public static Properties prop = new Properties();
 	DesiredCapabilities capability=null;
+	
+	public static void loadPropertiesFile()
+	{
+		try {
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/bewakoof/utils/config.properties");
+			prop.load(fis);
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+		
+	}
 	
 	public DesiredCapabilities setCapabitilty()
 	{
@@ -44,6 +59,7 @@ public class GlobalClass extends AppiumServer {
 	public void setUp()
 	{
 		startServer();
+		loadPropertiesFile();
 	}
 	@AfterSuite
 	public void tearDown()

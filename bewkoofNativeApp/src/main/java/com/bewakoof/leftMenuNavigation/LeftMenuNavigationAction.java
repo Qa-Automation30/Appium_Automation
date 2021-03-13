@@ -12,8 +12,9 @@ public class LeftMenuNavigationAction extends GlobalClass{
 	{
 		landingPageRepo= new LeftMenuNavigationRepo(androidDriver);
 	}
-	public void clickOnHamburgerMenu()
+	public void clickOnHamburgerMenu() throws InterruptedException
 	{
+		Thread.sleep(5000);
 		CommanFunctionForMobile.clickEvent(landingPageRepo.getHamburgerMenu());
 	}
 	public void clickOnLoginButton() throws InterruptedException

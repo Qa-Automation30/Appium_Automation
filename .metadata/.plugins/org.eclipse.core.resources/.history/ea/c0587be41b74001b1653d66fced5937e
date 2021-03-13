@@ -1,0 +1,53 @@
+package com.bewakoof.TestLayer;
+
+import org.springframework.context.annotation.Description;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+import com.bewakoof.commanLibraries.GlobalClass;
+import com.bewakoof.leftMenuNavigation.LeftMenuNavigationAction;
+import com.bewakoof.loginPageRepo.LoginPageAction;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class LoginPageTest extends GlobalClass {
+	LeftMenuNavigationAction navigationAction;
+	LoginPageAction loginPageAction;
+	//Test Automation.
+	@Test(priority=1)
+	public void verifyLoginPage_Elements()
+	{
+		try {
+			AndroidDriver<AndroidElement> androidDriver = getAndroidDriver();
+			navigationAction = new LeftMenuNavigationAction(androidDriver);
+			navigationAction.clickOnHamburgerMenu();
+			navigationAction.clickOnLoginButton();
+			loginPageAction = new LoginPageAction(androidDriver);
+			Assert.assertEquals(loginPageAction.IsLoginHeaderDisplayed(), true);
+			Assert.assertEquals(loginPageAction.getDiscoverFashionText(), "Discover Fashion!");
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+	}
+	@Test(priority=2)
+	@Description("Verify functionlaity when user enters wrong email or phone number")
+	public void verifyInvalidLoginFunctionality()
+	{
+		try {
+			AndroidDriver<AndroidElement> androidDriver = getAndroidDriver();
+			navigationAction = new LeftMenuNavigationAction(androidDriver);
+			navigationAction.clickOnHamburgerMenu();
+			navigationAction.clickOnLoginButton();
+			loginPageAction = new LoginPageAction(androidDriver);
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+	}
+	@AfterTest
+	public void tearDown()
+	{
+		androidDriver.quit();
+	}
+}

@@ -11,6 +11,7 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class LeftMenuNavigationRepo extends GlobalClass {
+	// just check.
 	public LeftMenuNavigationRepo(AndroidDriver<AndroidElement> androidDriver)
 	{
 		PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);

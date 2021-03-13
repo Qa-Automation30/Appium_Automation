@@ -19,4 +19,20 @@ public class LoginPageAction extends GlobalClass {
 	{
 		return loginpagerepo.getDiscoverFashion().getText();
 	}
+	public void enterEmail(String email)
+	{
+		loginpagerepo.getEnterEmailOrMobile().sendKeys(email);
+	}
+	public void enterPhone(String phone)
+	{
+		loginpagerepo.getEnterEmailOrMobile().sendKeys(phone);
+	}
+	public void continueButton()
+	{
+		loginpagerepo.getContinueButton().click();
+	}
+	public String toastMessage()
+	{
+		return loginpagerepo.getToastMessage();
+	}
 }

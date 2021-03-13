@@ -1,5 +1,6 @@
 package com.bewakoof.loginPageRepo;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -34,6 +35,13 @@ public class LoginPageRepo extends GlobalClass {
 	private WebElement continueWithGoogle;
 	@FindBy(xpath="//android.widget.TextView[@text='Continue with Facebook']")
 	private WebElement continueWithFacebook;
+	@FindBy(xpath="//android.widget.Toast[1]")
+	private WebElement toastMessage;
+	
+	public String getToastMessage()
+	{
+		return toastMessage.getAttribute("name");
+	}
 	
 	public WebElement getLoginHeader()
 	{
